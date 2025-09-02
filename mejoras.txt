@@ -1,0 +1,5 @@
+*arreglar imágenes
+*arreglar videos
+*implementar temática
+*agregar mas lógica
+*estilizar
