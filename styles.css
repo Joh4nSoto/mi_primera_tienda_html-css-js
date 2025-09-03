@@ -12,6 +12,12 @@ a:hover { text-decoration: underline; }
 
 .contenedor { width: min(960px, 92%); margin: 0 auto; }
 
+.contenedor_productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  gap: 20px;
+}
+
 header { background: white; border-bottom: 1px solid var(--borde); padding: 1rem 0; }
 header h1 { margin: 0 0 .5rem; font-size: 1.5rem; }
 nav { display: flex; gap: 1rem; flex-wrap: wrap; }
@@ -20,8 +26,8 @@ nav a[aria-current="page"] { font-weight: 700; }
 main { padding: 1.5rem 0; }
 h2 { margin-top: 0; }
 
-.producto { background: white; border: 1px solid var(--borde); border-radius: .5rem; padding: 1rem; margin: 1rem 0; }
-.producto img { width: 100%; height: auto; border-radius: .375rem; }
+.producto { background: white; border: 1px solid var(--borde); border-radius: .5rem; padding: 1rem; margin: 1rem 0; width: 300px;}
+.producto_img { width: 200px; height: 250px; border-radius: .375rem; }
 
 .video-responsivo { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: .5rem; }
 .video-responsivo iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -41,11 +47,15 @@ input:focus { outline: 2px solid var(--primario); outline-offset: 1px; }
 .campo.check { flex-direction: row; align-items: center; gap: .5rem; }
 .error { color: #b91c1c; min-height: 1.2em; }
 
-.btn { display: inline-block; border: none; background: var(--primario); color: white; padding: .625rem 1rem; border-radius: .375rem; cursor: pointer; }
+.btn { display: inline-block; border: none; background: var(--primario); color: white; padding: .625rem 1rem; border-radius: .375rem; cursor: pointer; bottom: 10px; right: 10px;}
 .btn:hover { opacity: .95; }
 
 .precio {
   font-style: oblique;
   font-size: 24px;
   color: rgb(53, 155, 155)
+}
+
+.descripcion {
+  font-size: 14px;
 }
