@@ -1,5 +1,13 @@
+ETAPA 1
 *arreglar imágenes
 *arreglar videos
 *implementar temática
 *agregar mas lógica
 *estilizar
+*modificar posición de registro y inicio
+*crear ventana de descripción de los productos al comprar
+
+ETAPA 2
+*crear carrito de compras
+*crear catalogo y filtro para los productos
+*crear slidebox para los números de paginas para los productos
