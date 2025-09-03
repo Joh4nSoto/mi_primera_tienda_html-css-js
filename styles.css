@@ -43,3 +43,9 @@ input:focus { outline: 2px solid var(--primario); outline-offset: 1px; }
 
 .btn { display: inline-block; border: none; background: var(--primario); color: white; padding: .625rem 1rem; border-radius: .375rem; cursor: pointer; }
 .btn:hover { opacity: .95; }
+
+.precio {
+  font-style: oblique;
+  font-size: 24px;
+  color: rgb(53, 155, 155)
+}
