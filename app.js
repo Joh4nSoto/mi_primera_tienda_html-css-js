@@ -211,7 +211,21 @@
         'Gràfica: RTX 4070 12GB',
         'Sistema: Windows 11 Pro'
       ]
-    }
+    },
+    {
+      id: 'notebook-gamer-asus-a15',
+      nombre: 'Notebook Gamer ASUS A15',
+      precio: 849990,
+      imagen: 'Imagenes/Notebook-ASUS-A15.png',
+      categoria: 'pc',
+      descripcion: 'Monitor Plano Notebook Gamer 15.6" Asus Tuf Gaming A15 FA506 / AMD Ryzen 5 / 8 GB RAM / Nvidia Geforce RTX 3050 / 512 GB SSD 24 Pulgadas FULLHD con tecnología IPS, tiempo de respuesta de 1ms y frecuencia de actualización de 75Hz.',
+      especificaciones: [
+        'Tamaño: 15.6"',
+        'Resolución: 1920x1080 Full HD',
+        'Modelo Tarjeta De Video Nvidia Geforce Rtx 3050',
+        'Nucleos del procesador: 8'
+      ]
+    },
   ];
 
   // ===== CARRITO DE COMPRAS =====
