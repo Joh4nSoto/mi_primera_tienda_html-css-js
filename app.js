@@ -226,6 +226,82 @@
         'Nucleos del procesador: 8'
       ]
     },
+    {
+      id: 'audifono-razer-kraken-v4x',
+      nombre: 'Audífonos Minecraft Edition Green/Black',
+      precio: 89900,
+      imagen: 'Imagenes/Razer-V4-Minecraft.png',
+      categoria: 'audio',
+      descripcion: 'Audífono Minecraft Edition green/black con Inmersion de Amplio Espectro, Diafragma Razer Triforce de 40 mm, Microfono Plegable Sonido Envolvente, Almohadilla Hibridas de Espuma, Comodidad y Aislamiento Acustico.',
+      especificaciones: [
+        'Respuesta de frecuencia: 20 Hz – 20 kHz',
+        'Especificaciones del controlador: 40 milímetros',
+        'Tipo de controlador: Razer TriForce',
+        'Almohadillas: Almohadillas ovaladas para los oídos',
+        'Material de las almohadillas: Tejido transpirable con cojines de espuma viscoelástica',
+        'Tipo de conexión: Con cable: USB tipo C o USB tipo A (mediante el adaptador incluido)',
+        'Longitud del cable: 1,8 m / 5,91 pies',
+        'Control de Volumen: Dial de Volumen',
+      ]
+    },
+    {
+      id: 'teclado-meetion-kraken-K9320',
+      nombre: 'Teclado Gamer Meetion K9320 Retroiluminado',
+      precio: 6900,
+      imagen: 'Imagenes/TECLADOGAMERMEETIONK9320USBRAINBOWBACKLIT1.jpg',
+      categoria: 'teclado',
+      descripcion: '19 teclas antifastasmas, multiples teclas sin conflicto, Arco iris retroiluminado, Diseño resistente al agua, 12 Botones de acceso directo Fn.',
+      especificaciones: [
+        'Compatibilidad: Windows XP, Vista 7/8/10 MAC OS',
+        'Color: Black',
+        'Keyboard Layout 104/105',
+        '19 Anti-Ghosting',
+        'Full Keys'
+
+      ]
+    },
+    {
+      id: 'teclado-gamer-aula-F3020',
+      nombre: 'Teclado Gamer Aula Menbrana F3020',
+      precio: 9900,
+      imagen: 'Imagenes/A0138577OK_BIG_1.jpg',
+      categoria: 'teclado',
+      descripcion: '105 Teclas, No mecanico, Retroiluminacion.',
+      especificaciones: [
+        'Tipo: No Mecánico',
+        'Marca: AULA',
+        'Modelo: F3020',
+        'Iluminación: Rainbow',
+        'Compatibilidad: Windows XP/ 7/8/10',
+      ]
+    },
+    {
+      id: 'notebook-all-in-one-LENOVO',
+      nombre: 'Notebook LENOVO A100',
+      precio: 499990,
+      imagen: 'Imagenes/noteBook_LENOVO_1_500.jpg',
+      categoria: 'pc',
+      descripcion: 'All in One A100, Gen7, Intel Core i3-N305, 24", FHD 8GB 512GB, SSD Cloud Grey F0J6002JCL+ Mouse/KB Wireless.',
+      especificaciones: [
+        'Tamaño: 24"',
+        'Gen 7 IntelCore i3-N305',
+        'FHD 8GB 512GB',
+        'Mouse/KB Wireless'
+      ]
+    },
+    {
+      id: 'notebook-Vivobook-ASUS-GO-14-E1404',
+      nombre: 'Notebook ASUS VivoBook Go 14 E1404',
+      precio: 499990,
+      imagen: 'Imagenes/noteBook_ASUS_1_500.jpg',
+      categoria: 'pc',
+      descripcion: 'Notebook Asus Vivobook Go 14 E1404, Intel Core i3-N305, 14.0", FHD 60Hz, 8GB 256GB.',
+      especificaciones: [
+        'Tamaño: 14.0"',
+        'Intel Core i3-N305',
+        'FHD 60Hz 8GB 256GB',
+      ]
+    },
   ];
 
   // ===== CARRITO DE COMPRAS =====
