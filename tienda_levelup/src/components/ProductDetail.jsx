@@ -7,12 +7,11 @@ const ProductDetail = ({ productos, agregarAlCarrito }) => {
   const navigate = useNavigate()
   const [producto, setProducto] = useState(null)
   const [cantidad, setCantidad] = useState(1)
-  const [imageError, setImageError] = useState(false)
 
   useEffect(() => {
     const productoEncontrado = productos.find(p => p.id === id)
+    console.log('🔍 Producto encontrado:', productoEncontrado) // Debug
     setProducto(productoEncontrado)
-    setImageError(false) // Resetear error al cambiar producto
   }, [id, productos])
 
   const aumentarCantidad = () => {
@@ -36,10 +35,10 @@ const ProductDetail = ({ productos, agregarAlCarrito }) => {
     }
   }
 
+  // Usamos el mismo enfoque simple de ProductCard
   const handleImageError = (e) => {
-    console.error('Error cargando imagen:', e.target.src)
-    setImageError(true)
-    e.target.style.display = 'none'
+    console.error('❌ Error cargando imagen:', e.target.src)
+    // No ocultamos la imagen, solo mostramos el error en consola
   }
 
   const productosRelacionados = productos
@@ -71,21 +70,16 @@ const ProductDetail = ({ productos, agregarAlCarrito }) => {
       <section className="detalle-producto">
         <div className="galeria-producto">
           <div className="imagen-principal">
-            {!imageError ? (
-              <img 
-                className="producto_img" 
-                src={producto.imagen} 
+            <div className="producto-imagen-container">
+              <img
+                className="producto_img"
+                src={producto.imagen.startsWith('/') ? producto.imagen : '/' + producto.imagen}
                 alt={producto.nombre}
                 loading="lazy"
                 onError={handleImageError}
                 onLoad={() => console.log('Imagen cargada:', producto.imagen)}
               />
-            ) : (
-              <div className="imagen-placeholder">
-                <p>📷 Imagen no disponible</p>
-                <p>{producto.nombre}</p>
-              </div>
-            )}
+            </div>
           </div>
         </div>
 

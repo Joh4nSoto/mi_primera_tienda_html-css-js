@@ -5,14 +5,15 @@ const ProductCard = ({ producto, onAgregarCarrito }) => {
     e.preventDefault()
     e.stopPropagation()
     onAgregarCarrito(producto)
+    console.log(producto.imagen)
   }
 
   return (
     <article className="producto" data-categoria={producto.categoria}>
       <div className="producto-imagen-container">
-        <img 
-          className="producto_img" 
-          src={producto.imagen} 
+        <img
+          className="producto_img"
+          src={producto.imagen.startsWith('/') ? producto.imagen : '/' + producto.imagen}
           alt={producto.nombre}
           loading="lazy"
         />

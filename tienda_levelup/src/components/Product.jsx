@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Product = ({ producto, agregarAlCarrito }) => {
   return (
     <article className="producto" data-categoria={producto.categoria} data-precio={producto.precio}>
-      <img className="producto_img" src={producto.imagen} alt={producto.nombre} />
+      <img className="producto_img" src={producto.imagen.startsWith('/') ? producto.imagen : '/' + producto.imagen} alt={producto.nombre} />
       <div>
         <h3>{producto.nombre}</h3>
         <p className="precio"><strong>${producto.precio.toLocaleString('es-CL')}</strong></p>
