@@ -1,13 +1,13 @@
 :root {
-  --primario: #2d6cdf;
-  --primario-oscuro: #1a56bb;
-  --secundario: #ff4655;
-  --texto: #222;
-  --texto-claro: #6b7280;
-  --borde: #e5e7eb;
-  --fondo: #f9fafb;
-  --fondo-oscuro: #23508b;
-  --fondo-tarjeta: #ffffff;
+    --primario: #02e687;     /* Precios, Botón Agregar, Carrito */
+    --primario-oscuro: #02e687;  
+    --secundario: #02e687;    /*Botón Ver Detalles */
+    --texto: #0c0e0f;
+    --texto-claro: #525a61;
+    --borde: #E9ECEF;
+    --fondo: #f8f8fa;
+    --fondo-oscuro: #1a1a1a;  /* Cabecera principal */
+    --fondo-tarjeta: #FFFFFF;
   --sombra: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --sombra-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }

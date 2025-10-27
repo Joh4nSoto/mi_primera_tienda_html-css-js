@@ -9,7 +9,25 @@ const Header = ({ totalItems }) => {
 
   return (
     <header className="contenedor">
-      <h1>Tienda de accesorios gamer LEVEL-UP</h1>
+      <div style={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      gap: '12px',
+      marginBottom: '15px'
+    }}>
+      <h1 style={{ margin: 0 }}>Tienda de accesorios gamer LEVEL-UP</h1>
+      {/* Icono movido después del titulo*/}
+      <img 
+        src="imagenes\IconTienda.png" 
+        alt="Icono Level Up" 
+        style={{
+          width: '110px',
+          height: '110px',
+          objectFit: 'contain'
+        }}
+      />
+    </div>
+
       <nav>
         <Link to="/" className={isActive('/') ? 'active' : ''}>Inicio</Link>
         <Link to="/register" className={isActive('/register') ? 'active' : ''}>Registrarse</Link>
