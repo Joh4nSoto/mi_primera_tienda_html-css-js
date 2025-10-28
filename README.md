@@ -1,6 +1,6 @@
 # 🕹 Tienda Gamer LevelUp
 
-Bienvenido al repositorio de *Tienda Gamer LevelUp*, una aplicación fullstack desarrollada para ofrecer una experiencia moderna de compra de productos gamer. Este proyecto incluye frontend con React, backend con Node.js, y pruebas automatizadas con Playwright.
+Bienvenido al repositorio de *Tienda Gamer LevelUp*, una aplicación fullstack desarrollada para ofrecer una experiencia moderna de compra de productos gamer. Este proyecto incluye frontend con React, backend con Node.js, y testing.
 
 ---
 
