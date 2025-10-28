@@ -1,0 +1,23 @@
+{
+  "name": "hellocucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:cucumber": "cucumber-js --require cucumber.conf.js --require steps/**/*.js --format progress",
+    "test:cucumber:cart": "cucumber-js features/cart.feature --require cucumber.conf.js --require steps/**/*.js",
+    "test:cucumber:login": "cucumber-js features/login.feature --require cucumber.conf.js --require steps/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.56.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
