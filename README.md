@@ -8,8 +8,8 @@ Bienvenido al repositorio de *Tienda Gamer LevelUp*, una aplicación fullstack d
 
 Sigue estos pasos para levantar el entorno de desarrollo local:
 
-1.--Pasos para abrir pagina web
-abrir terminal
+1.--Pasos para abrir pagina web:
+Abrir Rerminal: escribir los siguientes comandos.
 cd tienda_levelup
 npm install
 npm run dev
@@ -17,8 +17,8 @@ seguir vinculo localhost
 
 
 
-2---Pasos para realizar testing
-abrir terminal
+2---Pasos para realizar testing:
+Abrir Terminal: escribir los siguientes comandos.
 npx playwright install 
 npm install
 npm test
